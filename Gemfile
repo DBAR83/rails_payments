@@ -21,6 +21,8 @@ gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 #add twitter bootstrap
 gem 'bootstrap-sass'
+#gem file to accept stripe credit card payments
+gem 'stripe'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
