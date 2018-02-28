@@ -22,7 +22,11 @@ gem 'rails_12factor', group: :production
 #add twitter bootstrap
 gem 'bootstrap-sass'
 #gem file to accept stripe credit card payments
-gem 'stripe'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+#unsure of that this gem does but 
+gem 'figaro'
+ #for the PC users
+gem 'certified'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
